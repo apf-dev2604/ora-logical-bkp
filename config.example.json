@@ -1,0 +1,17 @@
+{
+  "bucket": "oracle-data-migration-backup-454983519280-ap-southeast-1",
+  "region": "ap-southeast-1",
+  "prefix": "ora-datapump-backup/PHCAFE/BASELINE_20261110",
+  "dump_dir": "/backup/ora-datapump-backup",
+  "log_dir": "/home/oracle/phcafe_datapump_logs",
+  "email": {
+    "enabled": true,
+    "smtp_host": "smtp.gmail.com",
+    "smtp_port": 587,
+    "sender": "REPLACE_SENDER@gmail.com",
+    "recipients": ["REPLACE_RECIPIENT@example.com"],
+    "username": "REPLACE_SENDER@gmail.com",
+    "password_file": "/home/oracle/.config/phcafe_dr/smtp_password",
+    "use_tls": true
+  }
+}
